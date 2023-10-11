@@ -4,13 +4,14 @@ import jakarta.persistence.*;
 import lombok.*;
 
 @Entity
-@Table ( name = "persona")
+@Table ( name = "domicilio")
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
 @Setter
 @Data
 @Builder
+@EqualsAndHashCode(callSuper=false)
 public class Domicilio extends Base {
 
 

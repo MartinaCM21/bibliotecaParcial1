@@ -11,6 +11,7 @@ import lombok.*;
 @Setter
 @Data
 @Builder
+@EqualsAndHashCode(callSuper=false)
 public class Autor extends Base {
 
     @Column( name = "nombre")
